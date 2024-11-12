@@ -7,15 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="IO\FileMove.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="IO\FileMove.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Automata.Base\Automata.Base.csproj" />
+    <PackageReference Include="CS-Script" Version="4.8.19" />
   </ItemGroup>
 
 </Project>

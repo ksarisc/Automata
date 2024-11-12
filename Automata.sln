@@ -5,23 +5,22 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "svc", "svc", "{8F0900A4-C4C2-4D23-9759-745C94957928}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automata.Worker", "svc\Automata.Worker\Automata.Worker.csproj", "{193DE0D4-3BB6-4CD6-837D-234480ACC0A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automata.Worker", "svc\Automata.Worker\Automata.Worker.csproj", "{193DE0D4-3BB6-4CD6-837D-234480ACC0A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui", "ui", "{5C289BAD-1B4D-44DE-A181-C75635F9FEBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automata.Web", "ui\Automata.Web\Automata.Web.csproj", "{85C5A407-839D-4C1D-846F-26792F520C95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automata.Web", "ui\Automata.Web\Automata.Web.csproj", "{85C5A407-839D-4C1D-846F-26792F520C95}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{5321EE0D-B185-411D-B126-3D0630254E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automata.Activities", "lib\Automata.Activities\Automata.Activities.csproj", "{E33A6737-11F9-414A-B2FD-B59301CB0986}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automata.Activities", "lib\Automata.Activities\Automata.Activities.csproj", "{E33A6737-11F9-414A-B2FD-B59301CB0986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automata.Base", "Automata.Base\Automata.Base.csproj", "{3ADD1781-9528-43AA-9711-2A7A66A244FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{193DE0D4-3BB6-4CD6-837D-234480ACC0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,10 +35,21 @@ Global
 		{E33A6737-11F9-414A-B2FD-B59301CB0986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E33A6737-11F9-414A-B2FD-B59301CB0986}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E33A6737-11F9-414A-B2FD-B59301CB0986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADD1781-9528-43AA-9711-2A7A66A244FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADD1781-9528-43AA-9711-2A7A66A244FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADD1781-9528-43AA-9711-2A7A66A244FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADD1781-9528-43AA-9711-2A7A66A244FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{193DE0D4-3BB6-4CD6-837D-234480ACC0A7} = {8F0900A4-C4C2-4D23-9759-745C94957928}
 		{85C5A407-839D-4C1D-846F-26792F520C95} = {5C289BAD-1B4D-44DE-A181-C75635F9FEBD}
 		{E33A6737-11F9-414A-B2FD-B59301CB0986} = {5321EE0D-B185-411D-B126-3D0630254E15}
+		{3ADD1781-9528-43AA-9711-2A7A66A244FA} = {5321EE0D-B185-411D-B126-3D0630254E15}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F05E85AD-4D97-44EF-91B5-8DF10CA17745}
 	EndGlobalSection
 EndGlobal
