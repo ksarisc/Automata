@@ -15,7 +15,7 @@ namespace Automata.Activities
 
         public void Log(string message)
         {
-            _log.Append(message);
+            //_log.Append(message);
         }
 
         public abstract void Run(IDependencyFactory factory, IState state);
